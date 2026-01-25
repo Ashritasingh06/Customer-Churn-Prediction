@@ -58,6 +58,7 @@ Model Storage: joblib (.pkl file)
 Helps businesses identify high-risk customers
 Enables proactive customer retention strategies
 Useful for telecom, banking, SaaS, and subscription-based services
+link: https://customer-churn-prediction-yzd44im8swehxkofhswxyx.streamlit.app/
 👤 Author
 Ashrita Singh
 Data Analyst | Machine Learning Enthusiast
