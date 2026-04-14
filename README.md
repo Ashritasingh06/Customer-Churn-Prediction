@@ -1,65 +1,36 @@
-# 📊 AI-Driven Customer Churn Prediction System
-## 🔍 Project Overview
-Customer churn is a critical problem for businesses. This project predicts whether a customer is likely to leave (churn) using Machine Learning and provides an interactive dashboard for real-time predictions.
+# 📊 Customer Churn Prediction System
 
-The project demonstrates a complete end-to-end Data Science workflow:
-- Data preprocessing and cleaning
-- Exploratory Data Analysis (EDA)
-- Machine Learning model training
-- Model deployment using Streamlit
----
-## 🛠️ Tech Stack
-- **Programming Language:** Python  
-- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
-- **Model:** Logistic Regression  
-- **Dashboard:** Streamlit  
-- **Tools:** Jupyter Notebook, GitHub  
----
-## 📂 Project Structure
-Customer-Churn-Prediction/
-│
-├── dashboard/
-│ └── app.py # Streamlit dashboard application
-│
-├── data/
-│ └── customer_data.csv # Dataset used for training
-│
-├── models/
-│ └── churn_model.pkl # Trained ML model
-│
-├── notebooks/
-│ └── 02_data_cleaning.ipynb # Data cleaning & EDA
-│
-├── src/
-│ └── train_model.py # Model training script
-│
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
----
-## 🚀 How to Run the Project Locally
-### 1️⃣ Install dependencies
-```bash
+End-to-end ML project predicting customer churn with a live Streamlit web app.
+
+🔗 Live Demo: https://customer-churn-prediction-yzd44im8swehxkofhswxyx.streamlit.app/
+
+## Problem Statement
+Customer churn costs businesses millions. This project builds a predictive model 
+to identify at-risk customers before they leave.
+
+## Tech Stack
+- Language: Python
+- Data Processing: Pandas, NumPy
+- Visualization: Matplotlib, Seaborn
+- ML Model: Scikit-learn (Logistic Regression)
+- Deployment: Streamlit
+- Model Storage: joblib
+
+## Workflow
+1. Data Cleaning — missing values, duplicates
+2. EDA — churn pattern analysis with visualizations
+3. Feature Engineering — Label Encoding for categorical variables
+4. Model Training — Logistic Regression with Train-Test Split
+5. Evaluation — Confusion Matrix, Classification Report, ROC-AUC
+6. Deployment — Live Streamlit app for real-time predictions
+
+## Results
+- Accuracy: ~80%
+- Dataset: ~7,000 customer records
+
+## Run Locally
 pip install -r requirements.txt
-2️⃣ Run the Streamlit dashboard
 python -m streamlit run dashboard/app.py
-3️⃣ Open in browser
-http://localhost:8501
-🎯 Features
-Interactive dashboard for churn prediction
-User input-based real-time predictions
-Clear churn result visualization (Stay / Churn)
-Simple and clean UI suitable for business users
-📈 Machine Learning Details
-Algorithm Used: Logistic Regression
-Target Variable: Churn (Yes / No)
-Preprocessing: Label Encoding, Train-Test Split
-Model Storage: joblib (.pkl file)
-💡 Use Case
-Helps businesses identify high-risk customers
-Enables proactive customer retention strategies
-Useful for telecom, banking, SaaS, and subscription-based services
-link: https://customer-churn-prediction-yzd44im8swehxkofhswxyx.streamlit.app/
-👤 Author
-Ashrita Singh
-Data Analyst | Machine Learning Enthusiast
-⭐ If you found this project useful, feel free to star the repository!
+
+## Author
+Ashrita Singh | https://www.linkedin.com/in/ashrita-singh
